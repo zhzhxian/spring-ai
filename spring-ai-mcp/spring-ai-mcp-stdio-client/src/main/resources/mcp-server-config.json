@@ -5,7 +5,7 @@
       "args": [
         "-Dspring.ai.mcp.server.transport=STDIO",
         "-jar",
-        "/Users/zhangqin/IdeaProjects/new_start_2025/spring-ai-mcp/spring-ai-mcp-stdio-server/target/spring-ai-mcp-stdio-server-0.0.1-SNAPSHOT.jar"
+        "/Users/zhangqin/IdeaProjects/new_start_2025/spring-ai/spring-ai-mcp/spring-ai-mcp-stdio-server/target/spring-ai-mcp-stdio-server-0.0.1-SNAPSHOT.jar"
       ]
     }
   }

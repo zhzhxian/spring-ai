@@ -14,7 +14,7 @@ logging:
   pattern:
     console:
   file:
-    name: /Users/zhangqin/IdeaProjects/new_start_2025/spring-ai-mcp/spring-ai-mcp-stdio-server/logs/spring-ai-mcp-weather.log
+    name: /Users/zhangqin/IdeaProjects/new_start_2025/spring-ai/spring-ai-mcp/spring-ai-mcp-stdio-server/logs/spring-ai-mcp-weather.log
 
 openWeather:
   apiKey: your_api_key
