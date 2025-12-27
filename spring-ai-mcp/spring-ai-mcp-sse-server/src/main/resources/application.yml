@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-ai-mcp-sse-server
+  ai:
+    mcp:
+      server:
+        #指定MCP服务的名称为spring-ai-mcp-weather
+        name: spring-ai-mcp-weather
+  main:
+    banner-mode: off
+server:
+  port: 8087
+logging:
+  pattern:
+    console:
+  file:
+    name: /Users/zhangqin/IdeaProjects/new_start_2025/spring-ai/spring-ai-mcp/spring-ai-mcp-sse-server/logs/spring-ai-mcp-weather.log
+
+openWeather:
+  apiKey: your_api_key

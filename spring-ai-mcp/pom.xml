@@ -11,6 +11,8 @@
     <modules>
         <module>spring-ai-mcp-stdio-client</module>
         <module>spring-ai-mcp-stdio-server</module>
+        <module>spring-ai-mcp-sse-client</module>
+        <module>spring-ai-mcp-sse-server</module>
     </modules>
 
 </project>
