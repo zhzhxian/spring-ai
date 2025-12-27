@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-ai-mcp-stdio-client
+  ai:
+    deepseek:
+      base-url: https://api.deepseek.com
+      api-key: your_api_key
+      chat:
+        options:
+          model: deepseek-chat
+    mcp:
+      client:
+        stdio:
+          servers-configuration: classpath:/mcp-server-config.json
+server:
+  port: 8080
+
+logging:
+  pattern:
+    console: "%-5level %logger - %msg%n"
