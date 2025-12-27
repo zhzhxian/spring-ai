@@ -31,3 +31,4 @@ build/
 
 ### VS Code ###
 .vscode/
+/logs/spring-ai-mcp-weather.log
