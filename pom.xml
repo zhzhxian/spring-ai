@@ -10,6 +10,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-ai-mcp</module>
+        <module>spring-ai-milvus</module>
+        <module>spring-ai-quickstart</module>
+        <module>spring-ai-rag-with-advisor</module>
     </modules>
 
 </project>
