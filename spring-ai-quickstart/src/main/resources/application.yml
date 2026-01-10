@@ -3,7 +3,7 @@ spring:
     name: spring-ai-quickstart
   ai:
     deepseek:
-      api-key: sk-364eda7e38ec4c31bca52968bb0bca7f
+      api-key: sk-xxxxx
       base-url: https://api.deepseek.com
       chat:
         options:
