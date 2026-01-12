@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-ai-embedding
+  ai:
+    zhipuai:
+      api-key: your_zhipu_api_key
+      base-url: https://open.bigmodel.cn/api/paas
+      embedding:
+        options:
+          model: embedding-3
+          # 向量维度，embedding-3默认的维度是2048
+          dimensions: 1024
+      chat:
+        options:
+          model: glm-4.7
+server:
+  port: 8080
