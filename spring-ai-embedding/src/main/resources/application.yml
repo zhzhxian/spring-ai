@@ -3,7 +3,7 @@ spring:
     name: spring-ai-embedding
   ai:
     zhipuai:
-      api-key: your_zhipu_api_key
+      api-key: api-key
       base-url: https://open.bigmodel.cn/api/paas
       embedding:
         options:

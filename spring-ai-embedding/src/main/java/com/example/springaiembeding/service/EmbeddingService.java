@@ -45,7 +45,7 @@ public class EmbeddingService {
      * @param b
      * @return
      */
-    private double consineSimilarity(float[] a, float[] b) {
+    public double consineSimilarity(float[] a, float[] b) {
         double dot = 0;
         double na = 0;
         double nb = 0;
