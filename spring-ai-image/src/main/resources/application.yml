@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: spring-ai-image
+  ai:
+    zhipuai:
+      api-key: your_key
+      base-url: https://open.bigmodel.cn/api/paas
+      embedding:
+        options:
+          model: embedding-3
+          # 向量维度，embedding-3默认的维度是2048
+          dimensions: 1024
+      chat:
+        options:
+          model: glm-4.7
+      #图像生成模型
+      image:
+        options:
+#          model: glm-image
+          model: cogview-3
+server:
+  port: 8080
