@@ -3,7 +3,7 @@ spring:
     name: spring-ai-quickstart
   ai:
     deepseek:
-      api-key: your_key
+      api-key: deepseek的API_KEY
       base-url: https://api.deepseek.com
       chat:
         options:

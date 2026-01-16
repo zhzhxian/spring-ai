@@ -13,6 +13,9 @@
         <module>spring-ai-milvus</module>
         <module>spring-ai-quickstart</module>
         <module>spring-ai-rag-with-advisor</module>
+        <module>spring-ai-embedding</module>
+        <module>spring-ai-audio</module>
+        <module>spring-ai-image</module>
     </modules>
 
 </project>

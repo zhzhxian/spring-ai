@@ -17,4 +17,4 @@ logging:
     name: /Users/zhangqin/IdeaProjects/new_start_2025/spring-ai/spring-ai-mcp/spring-ai-mcp-sse-server/logs/spring-ai-mcp-weather.log
 
 openWeather:
-  apiKey: your_api_key
+  apiKey: efc9a75b743020deb0b678ae453646b8

@@ -4,7 +4,7 @@ spring:
   ai:
     deepseek:
       base-url: https://api.deepseek.com
-      api-key: your_api_key
+      api-key: deepseek的API_KEY
       chat:
         options:
           model: deepseek-chat
