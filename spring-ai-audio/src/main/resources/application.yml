@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-ai-audio
+  ai:
+    openai:
+      base-url: https://api.openai.com
+      api-key: your_key
+      audio:
+        speech:
+          options:
+            model: tts-1
+            voice: alloy
+        transcription:
+          options:
+            model: whisper-1
+server:
+  port: 8080
+# 文本转语音的路径
+tts:
+  audio-output-dir: /Users/zhangqin/IdeaProjects/new_start_2025/spring-ai/spring-ai-audio/audio-output
