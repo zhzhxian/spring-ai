@@ -16,6 +16,7 @@
         <module>spring-ai-embedding</module>
         <module>spring-ai-audio</module>
         <module>spring-ai-image</module>
+        <module>spring-ai-ollama</module>
     </modules>
 
 </project>
