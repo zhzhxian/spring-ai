@@ -17,6 +17,8 @@
         <module>spring-ai-audio</module>
         <module>spring-ai-image</module>
         <module>spring-ai-ollama</module>
+        <module>spring-ai-chat-client-demo</module>
+        <module>spring-ai-multi-model-client</module>
     </modules>
 
 </project>

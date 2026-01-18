@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-ai-muti-model-client
+  ai:
+    chat:
+      client:
+        #同时支持多个模型的时候需要将这个开关关闭，不用springboot创建ChatClient.Builder
+        enabled: false
+    deepseek:
+      api-key: deepseek的API_KEY
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+    zhipuai:
+      api-key: 智普AI_API_KEY
+      base-url: https://open.bigmodel.cn/api/paas
+      chat:
+        options:
+          model: GLM-4.6V-FlashX
