@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-ai-chat-client-demo
+  ai:
+    deepseek:
+      api-key: sk-339ec4b68a744b07b8aa031864471708
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+
+server:
+  port: 8080
