@@ -4,14 +4,16 @@ spring:
   ai:
     openai:
       base-url: https://api.openai.com
-      api-key: your_key
+      api-key: your_api_key
       audio:
         speech:
           options:
+            #文字转语音
             model: tts-1
             voice: alloy
         transcription:
           options:
+            #语音转文字
             model: whisper-1
 server:
   port: 8080

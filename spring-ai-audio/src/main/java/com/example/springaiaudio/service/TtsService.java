@@ -1,4 +1,4 @@
-package com.example.springaiaudio;
+package com.example.springaiaudio.service;
 
 import org.springframework.ai.audio.tts.TextToSpeechPrompt;
 import org.springframework.ai.audio.tts.TextToSpeechResponse;
