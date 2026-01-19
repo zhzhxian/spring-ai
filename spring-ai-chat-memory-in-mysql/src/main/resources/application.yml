@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: spring-ai-chat-memory-in-mysql
+  ai:
+    deepseek:
+      # deepseek的API_KEY
+      api-key: deepseek的API_KEY
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+    chat:
+      memory:
+        repository:
+          jdbc:
+            #自动创建ChatMemory存储的表结构
+            initialize-schema: always
+            #告诉框架当前数据库是 MariaDB/MySQL，会加载 schema-mariadb.sql 初始化脚本，自行创建表 SPRING_AI_CHAT_MEMORY表
+            platform: mariadb
+  datasource:
+    url: jdbc:mysql://localhost:3306/chat_memory?useUnicode=true&characterEncoding=UTF-8&connectionCollection=utf8mb4_unicode_ci&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true
+    username: root
+    password: zzx@123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      #确保每条 JDBC 连接都使用 utf8mb4 字符集并指定 utf8mb4_unicode_ci 排序
+      connection-init-sql: SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci
+
+
+server:
+  port: 8080
