@@ -19,6 +19,8 @@
         <module>spring-ai-ollama</module>
         <module>spring-ai-chat-client-demo</module>
         <module>spring-ai-multi-model-client</module>
+        <module>spring-ai-chat-memory-in-memory</module>
+        <module>spring-ai-chat-memory-in-mysql</module>
     </modules>
 
 </project>
