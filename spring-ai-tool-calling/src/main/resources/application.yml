@@ -4,7 +4,7 @@ spring:
   ai:
     deepseek:
       #deepseek的API_KEY
-      api-key: sk-339ec4b68a744b07b8aa031864471708
+      api-key: deepseek的API_KEY
       base-url: https://api.deepseek.com
       chat:
         options:

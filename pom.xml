@@ -21,6 +21,7 @@
         <module>spring-ai-multi-model-client</module>
         <module>spring-ai-chat-memory-in-memory</module>
         <module>spring-ai-chat-memory-in-mysql</module>
+        <module>spring-ai-tool-calling</module>
     </modules>
 
 </project>
