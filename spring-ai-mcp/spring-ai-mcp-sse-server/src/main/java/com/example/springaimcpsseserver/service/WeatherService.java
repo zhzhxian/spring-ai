@@ -25,7 +25,7 @@ public class WeatherService {
     private String openWeatherApiKey;
 
     @Tool(description = "获得指定城市的当前天气情况，格式化后的天气报告字符")
-    public String getWeather(@ToolParam(description = "城市名称，必须是引文格式，比如 London 或 Beijing") String city) {
+    public String getWeather(@ToolParam(description = "城市名称，必须是英文格式，比如 London 或 Beijing") String city) {
         logger.info("====== 调用了getWeather工具 ======");
         try {
             String charset = "UTF-8";
