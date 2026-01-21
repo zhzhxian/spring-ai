@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-ai-tool-calling
+  ai:
+    deepseek:
+      #deepseek的API_KEY
+      api-key: sk-339ec4b68a744b07b8aa031864471708
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+          # 介于0和2之间，0表示随机性最小，2表示随机性最大。
+          temperature: 0.8
+
+server:
+  port: 8080
