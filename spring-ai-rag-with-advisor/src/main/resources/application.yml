@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: spring-ai-rag-with-advisor
+  ai:
+    zhipuai:
+      #智普AI_API_KEY
+      api-key: 智普AI_API_KEY
+      base-url: https://open.bigmodel.cn/api/paas
+      embedding:
+        options:
+          model: embedding-3
+          # 向量维度，embedding-3默认的维度是2048
+          dimensions: 1024
+    deepseek:
+      #deepseek的API_KEY
+      api-key: deepseek的API_KEY
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+          # 介于0和2之间，0表示随机性最小，2表示随机性最大。
+          temperature: 0.8
+    vectorstore:
+      milvus:
+        client:
+          token: root:Milvus
+          uri: http://localhost:19530
+        database-name: default
+        collection-name:  vector_store
+        initialize-schema: true
+        # 向量化的维度
+        embedding-dimension: 1024
+server:
+    port: 8080
